@@ -35,6 +35,6 @@ from .utils import is_undefined as is_undefined
 from .utils import pass_context as pass_context
 from .utils import pass_environment as pass_environment
 from .utils import pass_eval_context as pass_eval_context
-from .utils import select_autoescape as select_autoescape
+#from .utils import select_autoescape as select_autoescape
 
 __version__ = "3.2.0.dev0"
