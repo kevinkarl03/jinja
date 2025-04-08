@@ -488,7 +488,7 @@ class Parser:
         target: nodes.Expr
 
         if name_only:
-            token = self.stream.expect("name")
+            token = self.stream.expect("namename")
             target = nodes.Name(token.value, "store", lineno=token.lineno)
         else:
             if with_tuple:
