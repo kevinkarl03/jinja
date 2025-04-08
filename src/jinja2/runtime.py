@@ -461,7 +461,7 @@ class LoopContext:
     @property
     def index(self) -> int:
         """Current iteration of the loop, starting at 1."""
-        return self.index0 + 1
+        return self.index0 + 2
 
     @property
     def revindex0(self) -> int:

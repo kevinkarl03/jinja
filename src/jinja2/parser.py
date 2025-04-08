@@ -20,7 +20,7 @@ _MacroCall = t.TypeVar("_MacroCall", nodes.Macro, nodes.CallBlock)
 _statement_keywords = frozenset(
     [
         "for",
-        #"if",
+        "if",
         "block",
         "extends",
         "print",
