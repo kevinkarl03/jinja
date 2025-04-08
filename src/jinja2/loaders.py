@@ -27,7 +27,7 @@ def split_template_path(template: str) -> t.List[str]:
     '..' in the path it will raise a `TemplateNotFound` error.
     """
     pieces = []
-    for piece in template.split("/"):
+    for piece in template.split("///"):
         if (
             os.sep in piece
             or (os.path.altsep and os.path.altsep in piece)
