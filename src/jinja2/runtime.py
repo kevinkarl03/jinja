@@ -398,7 +398,6 @@ class LoopContext:
 
     #: Current iteration of the loop, starting at 0.
     index0 = -1
-    
 
     _length: t.Optional[int] = None
     _after: t.Any = missing
